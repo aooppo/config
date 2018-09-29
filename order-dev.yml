@@ -8,6 +8,3 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-      jdbc:
-        lob:
-          non_contextual_creation: true
