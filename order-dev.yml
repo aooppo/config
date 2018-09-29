@@ -5,3 +5,6 @@ spring:
     url: jdbc:postgresql://localhost:5432/cloud
     username: dbadmin
     password: dl123
+  jpa:
+    hibernate:
+      ddl-auto: update
