@@ -8,3 +8,5 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+    temp:
+      use_jdbc_metadata_defaults: false  
